@@ -11,6 +11,9 @@ def func2(var1, var2):
 def func3(var1, var2, var3):
     pass
 
+def func4(var1, var2, var3):
+    pass
+
 driver = webdriver.Chrome("D:\Work\Web Scraping\chromedriver_win32 (1)\chromedriver.exe")
 df = pd.read_csv(r'D:\Work\Web Scraping\export.csv',encoding = 'cp1252')
 df = df.dropna(how='all', axis=1)
