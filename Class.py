@@ -1,6 +1,7 @@
 from selenium import webdriver
 import time
 import pandas as pd
+import numpy as np
 
 def func1(var1, var2):
     pass
@@ -12,6 +13,9 @@ def func3(var1, var2, var3):
     pass
 
 def func4(var1, var2, var3):
+    pass
+
+def func5(var1, var2, var3, var4, var5):
     pass
 
 driver = webdriver.Chrome("D:\Work\Web Scraping\chromedriver_win32 (1)\chromedriver.exe")
